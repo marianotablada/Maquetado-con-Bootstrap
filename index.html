@@ -1,0 +1,221 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+		<meta charset="UTF-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<meta name="keywords" content="maquetando una pagina web con Bootstrap">
+		<meta name="description" content="...............">
+        <link rel="icon" href="..........">
+		<title>Maquetado con Bootstrap - Blog de películas</title>
+        <link rel="stylesheet" href="style.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+        <!--iconos-->
+		<script defer src="https://use.fontawesome.com/releases/v6.1.0/js/all.js"></script>
+        <!--Bootstrap-->
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+</head>
+<body>
+    <header>
+        <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+            <div class="container-fluid">
+                
+              <a class="navbar-brand" href="#">Nombre de la página</a>
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                  <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="#">Inicio</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#">Películas</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link disabled">Series</a>
+                  </li>
+                </ul>
+                <form class="d-flex">
+                  <input class="form-control me-2" type="search" placeholder="Buscar" aria-label="Search">
+                  <button class="btn btn-outline-success" type="submit">Buscar</button>
+                </form>
+              </div>
+            </div>
+          </nav>
+    </header>
+    <main>
+        <section class="py-5 text-center container">
+            <div class="row py-lg-5">
+              <div class="col-lg-6 col-md-8 mx-auto">
+                <h1 class="fw-light">Bienvenido a nuestro Blog</h1>
+                <p class="lead text-muted">Aquí vas a poder encontrar las últimas series, películas, documentales y +. Podes ver nuestro contenido online o descargalo a través de nuestros planes.</p>
+                <p>
+                  <a href="#" class="btn btn-primary my-2">Conocer más</a>
+                  <a href="suscripcion.html" class="btn btn-secondary my-2">Suscribirme</a>
+                </p>
+              </div>
+            </div>
+          </section>
+        
+          <div class="album py-5 bg-light">
+            <div class="container">
+              <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 g-3">
+                <div class="col">
+                  <div class="card shadow-sm">
+                    <img src="yP2cYbeHCY6ZVklr55nEH2e1TgL.jpeg" alt="Turning Red" class="bd-placeholder-img card-img-top" width="100%" height="225" focusable="false"><rect width="100%" height="100%" fill="#55595c"/>
+                    <div class="card-body">
+                      <p class="card-text">Mei Lee, una niña de 13 años un poco rara pero segura de sí misma, se debate entre ser la hija obediente que su madre quiere que sea y el caos propio de la adolescencia. Ming, su protectora y ligeramente exigente madre, no se separa nunca de ella lo que es una situación poco deseable para una adolescente. Y por si los cambios en su vida y en su cuerpo no fueran suficientes, cada vez que se emociona demasiado (lo que le ocurre prácticamente todo el tiempo), se convierte en un panda rojo gigante.</p>
+                      <div class="d-flex justify-content-between align-items-center">
+                        <div class="rating">
+                            <span>☆</span><span>☆</span><span>☆</span><span>☆</span><span>☆</span>
+                            </div>
+                        <small class="text-muted">90 mins</small>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="col">
+                  <div class="card shadow-sm">
+                    <img src="j1YwDQqPoXd7GZAlWHstyhItpY8.jpeg" alt="Muerte en el Nilo" class="bd-placeholder-img card-img-top" width="100%" height="225" focusable="false"><rect width="100%" height="100%" fill="#55595c"/>
+                    <div class="card-body">
+                      <p class="card-text">Vuelven las pesquisas del célebre detective Hércules Poirot. Esta vez, durante un viaje en crucero por el Nilo, Poirot deberá investigar el misterioso asesinato de una joven heredera sin explicación aparente. Esta secuela de Asesinato en el Orient Express (2017) es la adaptación de la novela Muerte en el Nilo (1937) de Agatha Christie.</p>
+                      <div class="d-flex justify-content-between align-items-center">
+                        <div class="rating">
+                            <span>☆</span><span>☆</span><span>☆</span><span>☆</span><span>☆</span>
+                            </div>
+                        <small class="text-muted">125 mins</small>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="col">
+                  <div class="card shadow-sm">
+                    <img src="1g0dhYtq4irTY1GPXvft6k4YLjm.jpeg" alt="Spider-Man3" class="bd-placeholder-img card-img-top" width="100%" height="225" focusable="false"><rect width="100%" height="100%" fill="#55595c"/>
+                    <div class="card-body">
+                      <p class="card-text">Peter Parker es desenmascarado y por tanto no es capaz de separar su vida normal de los enormes riesgos que conlleva ser un súper héroe. Cuando pide ayuda a Doctor Strange, los riesgos pasan a ser aún más peligrosos, obligándole a descubrir lo que realmente significa ser Spider-Man.</p>
+                      <div class="d-flex justify-content-between align-items-center">
+                        <div class="rating">
+                            <span>☆</span><span>☆</span><span>☆</span><span>☆</span><span>☆</span>
+                            </div>
+                        <small class="text-muted">90 mins</small>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+        
+                <div class="col">
+                  <div class="card shadow-sm">
+                    <img src="eWtieccHCbYyc2yvwI6FqQCS0PE.jpeg" alt="Spider-Man3" class="bd-placeholder-img card-img-top" width="100%" height="225" focusable="false"><rect width="100%" height="100%" fill="#55595c"/>
+                    <div class="card-body">
+                      <p class="card-text">Cuando un grupo formado por los tiranos y las mentes criminales más malvadas de la historia se une para desencadenar una guerra que matará a millones de personas, un hombre tendrá que luchar a contrarreloj para detenerlos. Tercera entrega de la saga 'Kingsman', ambientada muchos años antes de las anteriores y explicando el origen de la agencia.</p>
+                      <div class="d-flex justify-content-between align-items-center">
+                        <div class="rating">
+                            <span>☆</span><span>☆</span><span>☆</span><span>☆</span><span>☆</span>
+                            </div>
+                        <small class="text-muted">125 mins</small>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="col">
+                  <div class="card shadow-sm">
+                    <img src="iZf0KyrE25z1sage4SYFLCCrMi9.jpeg" alt="Spider-Man3" class="bd-placeholder-img card-img-top" width="100%" height="225" focusable="false"><rect width="100%" height="100%" fill="#55595c"/>
+                    <div class="card-body">
+                      <p class="card-text">Nos encontramos en el año 1917. La Guerra Mundial amenazaba con cambiar, para siempre, el orden mundial. Ante la amenaza que se cernía, Estados Unidos decidió entrar en el conflicto con el objetivo de desequilibrar la balanza que caracterizaba a la contienda.</p>
+                      <div class="d-flex justify-content-between align-items-center">
+                        <div class="rating">
+                            <span>☆</span><span>☆</span><span>☆</span><span>☆</span><span>☆</span>
+                            </div>
+                        <small class="text-muted">120 mins</small>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="col">
+                  <div class="card shadow-sm">
+                    <img src="eIhIwf45fTmGkRd8Jne9VN2lNoR.jpeg" alt="Spider-Man3" class="bd-placeholder-img card-img-top" width="100%" height="225" focusable="false"><rect width="100%" height="100%" fill="#55595c"/>
+                    <div class="card-body">
+                      <p class="card-text">En la cúspide de su cumpleaños número 30, un joven y prometedor compositor de teatro navega por el amor, la amistad y las presiones de la vida como artista en la ciudad de Nueva York.</p>
+                      <div class="d-flex justify-content-between align-items-center">
+                        <div class="rating">
+                            <span>☆</span><span>☆</span><span>☆</span><span>☆</span><span>☆</span>
+                            </div>
+                        <small class="text-muted">90 mins</small>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+        
+                <div class="col">
+                  <div class="card shadow-sm">
+                    <img src="moonfall.jpeg" alt="Spider-Man3" class="bd-placeholder-img card-img-top" width="100%" height="225" focusable="false"><rect width="100%" height="100%" fill="#55595c"/>        
+                    <div class="card-body">
+                      <p class="card-text">El mundo se enfrenta a la posibilidad de la extinción porque una fuerza desconocida empuja a la luna de su órbita rumbo a la Tierra. Un equipo de astronautas asume la misión de evitar el apocalipsis.</p>
+                      <div class="d-flex justify-content-between align-items-center">
+                        <div class="rating">
+                            <span>☆</span><span>☆</span><span>☆</span><span>☆</span><span>☆</span>
+                            </div>
+                        <small class="text-muted">180 mins</small>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="col">
+                  <div class="card shadow-sm">
+                    <img src="korra.jpeg" alt="Spider-Man3" class="bd-placeholder-img card-img-top" width="100%" height="225" focusable="false"><rect width="100%" height="100%" fill="#55595c"/>
+                    <div class="card-body">
+                      <p class="card-text">Korra es una maestra agua nativa de la Tribu Agua del Sur, según sigue el ciclo del Avatar. Korra ya tiene control sobre el agua control, la tierra control y el fuego control, pero todavía no controla el aire control. Ella aprenderá aire control de un maestro aire, Tenzin, el hijo de Aang y Katara. Como no sucedía en la anterior serie, Avatar: La leyenda de Korra será ambientada en dos únicos lugares, la Ciudad República, una ciudad donde las personas de todas las naciones, maestros y no maestros, viven juntos y por primera vez el Imperio de la Magia, donde habitan maestros y no maestros del poder de la magia, ellos intentarán dominar Ciudad República y las otras 4 naciones. Ciudad República está rodeada del crimen y una revolución de anti-maestros.</p>
+                      <div class="d-flex justify-content-between align-items-center">
+                        <div class="rating">
+                            <span>☆</span><span>☆</span><span>☆</span><span>☆</span><span>☆</span>
+                            </div>
+                        <small class="text-muted">90 mins</small>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="col">
+                  <div class="card shadow-sm">
+                    <img src="loki.jpeg" alt="Spider-Man3" class="bd-placeholder-img card-img-top" width="100%" height="225" focusable="false"><rect width="100%" height="100%" fill="#55595c"/>
+                    <div class="card-body">
+                      <p class="card-text">Loki, el impredecible villano Loki (Hiddleston) regresa como el Dios del engaño en una nueva serie tras los acontecimientos de Avengers</p>
+                      <div class="d-flex justify-content-between align-items-center">
+                        <div class="rating">
+                            <span>☆</span><span>☆</span><span>☆</span><span>☆</span><span>☆</span>
+                            </div>
+                        <small class="text-muted">90 mins</small>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>        
+          
+          <div class="paginator py-3"><div class="d-flex justify-content-center"><ul class="pagination"><li class="page-item disabled"><a class="page-link" href="#"><i class="icon-arrow-left"></i></a></li><li class="page-item active"><a class="page-link" href="#">1</a></li><li class="page-item"><a class="page-link" href="?page=2">2</a></li><li class="page-item"><a class="page-link" href="?page=3">3</a></li><li class="page-item"><a class="page-link" href="?page=4">4</a></li><li class="page-item"><a class="page-link" href="?page=5">5</a></li><li class="page-item"><a class="page-link" href="?page=2"><i class="icon-arrow-right"></i></a></li></ul></div><div class="d-flex justify-content-center">
+            1 de 272
+        </div>
+        </div>
+
+    </main>
+    <footer>
+        <div class="footer_container">
+            <div class="copyright">
+                <p>© 2022 Copyright<br><b>Tablada Mariano Eric</b></p>
+                <a href="https://github.com/marianotablada"><i class="fa-brands fa-2x fa-github" style="color: #0B0B0C;"></i></a>
+            </div>
+            <div class="redes">
+                <h6>Nos podes encontrar también en</h6>
+                <a href="#"><i class="fa-brands fa-2x fa-facebook-square" style="color: #3b5998;"></i></a>
+                <a href="#"><i class="fa-brands fa-2x fa-twitter" style="color: #00acee;"></i>
+                <a href="#"><i class="fa-brands fa-2x fa-instagram" style="color: whitesmoke"></i></a>
+            </div>
+            <div class="rse">
+                <p>Escribinos:<br>info@.........com</p>
+            </div>
+        </div>
+    </footer>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+</body>
+</html>

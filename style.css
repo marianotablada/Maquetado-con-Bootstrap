@@ -1,0 +1,100 @@
+@import url('https://fonts.googleapis.com/css2?family=Caladea&family=Livvic:wght@100&display=swap');
+
+
+* {
+	margin: 0 auto;
+	padding: 0;
+	border: 0;
+	box-sizing: border-box;
+}
+
+.container {
+    max-width: 960px;
+}
+  
+.pricing-header {
+    max-width: 700px;
+  }
+
+
+.card-header {
+    padding: 0.5rem 1rem;
+    margin-bottom: 0;
+    background-color: rgba(0,0,0,.03);
+    border-bottom: 1px solid rgba(0,0,0,.125);
+}
+
+.rating {
+    unicode-bidi: bidi-override;
+    direction: rtl;
+  }
+  .rating > span {
+    display: inline-block;
+    position: relative;
+    width: 1.1em;
+  }
+  .rating > span:hover:before,
+  .rating > span:hover ~ span:before {
+     content: "\2605";
+     position: absolute;
+  }
+
+.card-text {
+    color: #536471;
+}
+
+.bd-placeholder-img {
+    max-width: 100%;
+    height: auto;
+}
+
+/* Footer */
+
+.footer_container {
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: minmax(200px, auto);
+    width: 96%;
+    height: 141px;
+	bottom: 10%;
+	color: #0E0E10;
+	border-radius: 2%;
+	box-shadow: 0 0.3rem 0.5rem rgba(0,0,0,0.5);
+	z-index: 30;
+	margin: 2%;
+	background-image: linear-gradient(rgb(85, 85, 85), transparent);
+	font-family: 'Caladea', serif;
+}
+
+.copyright {
+	position: relative;
+	left: -30%;
+	height: 80px;
+	margin-top: 8%;
+}
+
+.redes {
+	position: relative;
+	height: 80px;
+	width: 80%;
+	right: 20%;
+	align-items: center;
+	text-align: center;
+	margin-top: 8%;
+	
+}
+
+.rse {
+	position: relative;
+	height: 80px;
+	width: 70%;
+	text-align: right;
+	margin-left: 25%;
+	margin-top: 10%;
+    
+}
+
+.fa-instagram {
+    background: radial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 5%, #fd5949 45%,#d6249f 60%,#285AEB 90%);
+    border-radius: 30%;
+}
